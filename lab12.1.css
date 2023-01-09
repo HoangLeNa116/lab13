@@ -1,0 +1,137 @@
+body {
+  color: #5a5a5a;
+  padding: 40px 0;
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 15;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* carousel */
+.bg-img1 {
+  background-color: grey;
+  height: 512px;
+  width: auto;
+  background-image: url(./img.webp);
+}
+.bg-img2 {
+  background-color: grey;
+  height: 512px;
+  width: auto;
+  background-image: url(./img.webp);
+}
+.bg-img3 {
+  background-color: grey;
+  height: 512px;
+  width: auto;
+  background-image: url(./img.webp);
+}
+.carousel-caption {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  z-index: 10;
+  left: 15%;
+  margin-bottom: 40px;
+}
+.carousel {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+/* 3 circle heading */
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+.marketing .col-lg-3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+/* marketing & featurette */
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+.featurette-divider {
+  margin: 5rem 0;
+  box-sizing: border-box;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.marketing h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.featurette {
+  display: block;
+  box-sizing: border-box;
+}
+
+.bd-placeholder-img {
+  text-anchor: middle;
+}
+
+/* chỉnh to nhỏ */
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+.featurette-heading {
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 768px) {
+  .col.md-5 {
+    flex: 0 0 auto;
+  }
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
